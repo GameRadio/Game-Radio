@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game Radio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/sonic.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img class="navbar-brand" src="img/radio.jpg" />
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Stations <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Game Radio</a></li>
+                            <li><a href="#">Music Radio</a></li>
+                            <li><a href="#">Phone Radio</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">More...</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="favorites.html">Favorites</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="games.html">Games</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group has-success has-feedback">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <ul class="navbar-form navbar-right" style="list-style-type: none">
+                            <li class='dropdown'>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><input type="text" placeholder="Username" /></li>
+                                    <li><input type="password" placeholder="Password" /></li>
+                                    <li><input type="submit" /><input type="reset" /></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <marquee HSPACE="25%" behavior="alternate" id="welcomeBanner"><h3>WELCOME BANNER</h3></marquee>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="box" id="homepageBox">
+                    <h3 class="headings">Featured Stations</h3>
+                    <div class="row" style="padding-top: 5px; padding-bottom: 5px;">
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 5px; padding-bottom: 5px;">
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box">
+                                This is where one of the stations artwork will go.
+                            </div>
+                        </div>
+                    </div>
+                    <a href="stations.html" style="float:right;">More...</a>
+                </div>
+            </div>
+            <div class="col-lg-6" style="margin-top: 20px">
+                <div class="box" id="homepageBox">
+                    <h3 class="headings">News and Updates</h3>
+                    <div class="row" style="padding-top: 5px; padding-bottom: 5px;">
+                        <div class="col-lg-12">
+                            <div class="box">
+                                Timestamp: Description...
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-top: 5px; padding-bottom: 5px;">
+                        <div class="col-lg-12">
+                            <div class="box">
+                                Timestamp: Description...
+                            </div>
+                        </div>
+                    </div>
+                    <a href="news.html" style="float:right;">More...</a>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-lg-12">
+                <h4 id="feedbackBox">BOX ABOUT FEEDBACK</h4>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="alignleft" style="color: white;">&copy; Soundtrack Test</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
